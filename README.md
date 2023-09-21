@@ -21,11 +21,6 @@ Este endpoint permite recuperar uma pergunta com base no ID fornecido.
 ```
 
 ---
----
----
----
----
----
 
 ### Recupera todas as perguntas disponíveis
 Este endpoint permite recuperar todas as perguntas disponíveis.
@@ -39,11 +34,6 @@ Este endpoint permite recuperar todas as perguntas disponíveis.
   GET /api/question/650a5869929a7f635afc5642
 ```
 
----
----
----
----
----
 ---
 
 ### Recupera todas as perguntas com base na categoria fornecida
@@ -63,11 +53,6 @@ Este endpoint permite recuperar todas as perguntas com base na categoria forneci
 ```
 
 ---
----
----
----
----
----
 
 ### Recupera uma quantidade especificada de questões de uma categoria específica
 Este endpoint permite recuperar uma quantidade especificada de questões de uma categoria específica.
@@ -86,11 +71,6 @@ Este endpoint permite recuperar uma quantidade especificada de questões de uma 
   GET /api/question/Linux/5
 ```
 
----
----
----
----
----
 ---
 
 ### Cria uma nova pergunta no sistema
@@ -132,11 +112,6 @@ Este endpoint permite criar uma nova pergunta no sistema.
     }
 ]
 ```
----
----
----
----
----
 ---
 
 ### Atualiza os detalhes de uma pergunta existente com base no ID fornecido
@@ -184,11 +159,6 @@ Este endpoint permite atualizar os detalhes de uma pergunta existente com base n
 ```
 
 ---
----
----
----
----
----
 
 ### Exclui uma pergunta com base no ID fornecido
 Este endpoint permite excluir uma pergunta com base no ID fornecido.
@@ -206,11 +176,6 @@ Este endpoint permite excluir uma pergunta com base no ID fornecido.
   DELETE /api/question/650a5869929a7f635afc5642
 ```
 
----
----
----
----
----
 ---
 
 ### Consulta o número de questões/categorias cadastradas
