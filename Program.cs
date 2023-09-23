@@ -17,23 +17,18 @@ builder.Services.AddSwaggerGen(
            c.SwaggerDoc("v1", new OpenApiInfo
            {
                Title = "Docs Web API PBIC",
-               Description = "API criada como parte do desenvolvimento de uma aplicação " +
-               "de referência para experimentação de estratégias para Cloud Native."
+               Description = "API criada como parte do desenvolvimento de uma aplicaÃ§Ã£o " +
+               "de referencia para experimentaÃ§Ã£o de estratÃ©gias para Cloud Native."
            });
        });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-/*
-app.UseHttpsRedirection();
-*/
 
 app.UseAuthorization();
 
