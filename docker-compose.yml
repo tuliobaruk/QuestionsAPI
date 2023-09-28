@@ -1,6 +1,0 @@
-﻿services:
-  pbic_cloudnative:
-    image: pbic_cloudnative
-    build:
-      context: .
-      dockerfile: Dockerfile

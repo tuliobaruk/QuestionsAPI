@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PBIC_CloudNative.Models;
-using PBIC_CloudNative.Services;
+using QuestionsAPI.Models;
+using QuestionsAPI.Services;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace PBIC_CloudNative.Controllers;
+namespace QuestionsAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

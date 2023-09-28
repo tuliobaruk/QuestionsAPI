@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using PBIC_CloudNative.Configurations;
-using PBIC_CloudNative.Models;
+using QuestionsAPI.Configurations;
+using QuestionsAPI.Models;
 
-namespace PBIC_CloudNative.Services;
+namespace QuestionsAPI.Services;
 
 public class QuestionService
 {

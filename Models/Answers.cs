@@ -1,8 +1,7 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson.Serialization.Attributes;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace PBIC_CloudNative.Models;
+namespace QuestionsAPI.Models;
 
 public class Answers
 {

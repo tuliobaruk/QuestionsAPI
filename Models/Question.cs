@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 using Swashbuckle.AspNetCore.Annotations;
 using System.ComponentModel;
 
-namespace PBIC_CloudNative.Models;
+namespace QuestionsAPI.Models;
 
 public class Question
 {
